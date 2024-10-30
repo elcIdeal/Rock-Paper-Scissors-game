@@ -1,0 +1,79 @@
+/* Centering the entire content */
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f8ff;
+}
+
+/* Styling the header */
+.center h1 {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Flex container for the buttons */
+.Btn {
+  display: flex;
+  gap: 20px;
+}
+
+/* Styling each button */
+.btn {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect for buttons */
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Click effect for buttons */
+.btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the images within the buttons */
+.btn img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+/* Styling for the result section */
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Styling for result texts */
+.result h2 {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Styling for images in result section */
+.result img {
+  width: 50px; /* Fixed size for better layout control */
+  height: 50px;
+  object-fit: contain;
+}
